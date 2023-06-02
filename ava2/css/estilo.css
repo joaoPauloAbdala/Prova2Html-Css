@@ -1,0 +1,197 @@
+html{
+    min-width: 1000px;
+    font-family: sans-serif;
+    background-color: #f8f6f7;
+}
+
+header{
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f6f7;
+}
+
+main{
+    margin-top: 3rem;
+}
+
+
+h1{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+#laranja,  #amarelo,  #verde {
+font-weight: 700;
+font-size: 1.7rem;
+}
+
+#laranja{
+    color: #f35926;
+}
+
+#amarelo{
+    color: #fcb929;
+}
+
+#verde{
+color: #00b049;
+}
+
+nav{
+    word-spacing: 1rem;
+}
+
+.busca__container{
+    display: flex;
+    background: url('../img/barcos.webp');
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;    
+    align-items: center;
+}
+
+
+
+.busca__inputs{
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    height: 120px;
+    margin-top: 2rem;
+
+}
+
+
+.busca__inputs>h2{
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.busca__inputs div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+
+.busca__inputs input{
+    width: 150px;
+    height: 2rem;
+    
+}
+
+input[type="date"]{
+    
+}
+
+
+.busca__inputs button{
+    background-color: #ea3d35;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+.lista__voos{
+    margin: 3rem 4rem;
+    justify-content: center;
+        
+
+}
+
+.lista__voos h2{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.cards__container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+article{
+    flex-basis: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-position: center;
+    background-size: cover;
+    height: 10rem;
+    border-radius: 8px;
+    color: white;
+}
+
+
+article h3{
+    text-shadow: 1px 1px 4px #000
+}
+
+article h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 4px #000
+}
+
+article button{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px black;
+    padding: 0.2rem 1.5rem;
+}
+
+article button:hover{
+    cursor: pointer;
+}
+
+
+#rio{
+    background-image: url('../img/rio.webp');    
+}
+
+#bonito{
+    background-image: url('../img/bonito.webp');
+}
+
+#sao-paulo{
+    background-image: url(../img/sao-paulo.webp);
+}
+
+#foz{
+    background-image: url(../img/foz.webp);
+}
+
+#maceio{
+    background-image: url(../img/maceio.webp);
+}
+
+#salvador{
+    background-image: url(../img/salvador.webp);
+}
+
+#fortaleza{
+    background-image: url(../img/fortaleza.webp);
+}
+
+#belo-horizonte{
+    background-image: url(../img/belo-horizonte.webp);
+}
